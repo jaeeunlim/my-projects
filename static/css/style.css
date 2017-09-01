@@ -1,0 +1,151 @@
+/*
+ * Style
+ */
+
+/****** Footer ******/
+.footer {
+	list-style: none;
+	display: block;
+	overflow: hidden;
+	position: relative;
+	margin-top: -40px;
+	clear: both;
+	width: 100%;
+	padding: 20px;
+	background-color: black;
+	border-top: 2px #777 solid;
+	font-family: sans-serif;
+    font-size: 12px;
+	text-align: center;
+	color: #888;
+}
+
+
+/****** Form Format ******/
+.format {
+	text-align: center;
+	color: #555;
+	padding: 0px;
+}
+
+.format div {
+	font-family: Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: 100;
+	display: inline-block;
+	text-align: left;
+}
+
+
+/****** Error Message ******/
+.errorMessage {
+	color: red;
+	font-size: 12px;
+	list-style: none;
+}
+
+
+/****** Form Items ******/
+span.required:after { 
+	content: '*';
+	color: red;
+}
+
+.helptext {
+	color: grey;
+	text-align: left;
+}
+
+
+/****** Form Navigation ******/
+.navigation { 
+	display: inline-block;
+	background-color: #FF8C00; 
+	font-family: Helvetica, sans-serif;
+	font-weight: 100;
+	color: white;
+	width: 100%;
+	padding: 7px 20px;
+}
+
+.navigation span { 
+	font-size: 9px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: teal;
+}
+
+.navigation .main { 
+	color: white;
+	font-size: 15px;
+	padding-right: 10px;
+	text-shadow: 1px 1px #777;
+}
+
+
+/****** Buttons ******/
+.buttons { 
+	padding-top: 30px;
+}
+
+.buttons input { 
+	padding: 5px 20px;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    color: white;
+    text-shadow: 1px 1px #777;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: hsl(170, 40%, 50%);
+    cursor: pointer;
+}
+
+.buttons input:hover { 
+	box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.2);
+}
+
+
+/****** Profile Image ******/
+.profile-container {
+	position: relative;
+	cursor: pointer;
+}
+
+
+/****** Star ******/
+.half {
+	color: orange;
+	width: .5em;
+    overflow:hidden;
+}
+
+.wrapper {
+ 	position: relative;
+}
+
+.overlap {
+  	position: absolute;
+}
+
+
+/****** Others ******/
+html, body { 
+	margin: 0;
+	padding-top: 25px;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 0;
+	height: 100%;
+}
+
+#container { 
+	min-height: 100%;
+}
+
+#main { 
+	overflow: auto;
+	padding-bottom: 40px;
+}
